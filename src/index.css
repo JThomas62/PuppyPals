@@ -78,5 +78,6 @@ button:focus-visible {
 .puppy-list {
   border: 3px solid red;
   margin-bottom: 2em;
+  padding: 1em;
   background-color: black;
 }
