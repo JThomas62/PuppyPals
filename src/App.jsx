@@ -23,7 +23,7 @@ function App() {
       <div className="puppy-list">
         {puppies.map((puppy) => {
           return (
-            <p onClick={()=>{console.log(setFeatPupId(puppy.id))}} key={puppy.id}>{puppy.name}</p>
+            <p onClick={()=> (setFeatPupId(puppy.id))} key={puppy.id}>{puppy.name}</p>
         );
       })}
       </div>
@@ -43,4 +43,3 @@ function App() {
 }
 
 export default App;
-
