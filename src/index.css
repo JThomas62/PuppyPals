@@ -67,3 +67,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.featured-puppy {
+  border: 3px solid lime;
+  padding: 1.5em;
+  background-color: darkblue;
+  color: white;
+}
+
+.puppy-list {
+  border: 3px solid red;
+  margin-bottom: 2em;
+  background-color: black;
+}
